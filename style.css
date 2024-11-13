@@ -1,0 +1,89 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ecc8e9;
+}
+
+.container {
+    width: 400px;
+    text-align: center;
+    background: #d47cae;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #e437bf;
+}
+
+/* Estilos dos Flashcards */
+.flashcard {
+    background-color: #d22ea1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 15px 0;
+    transition: transform 0.6s;
+    cursor: pointer;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #f6addf;
+    position: relative;
+}
+
+.flashcard-content {
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.show-answer {
+    background-color: #9a1067;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* Botão de Próximo */
+button {
+    background-color: #790059;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d74299;
+}
+
+/* Barra de progresso */
+.progress {
+    width: 100%;
+    background-color: #deb8ca;
+    height: 8px;
+    border-radius: 4px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #ec81c4;
+    width: 0;
+    transition: width 0.3s;
+}
